@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Counselling | Mytherapy</title>
+    <link rel="stylesheet" href="Online_style.css">
+</head>
+
+<body>
+    <main>
+    <section class="Payment_section">
+        <form action="" method="get">
+            <h1>Payment Form</h1>
+            <div class="container">
+                <h2>User Information</h2>
+                <p>Name : * <input type="text" name="naming" placeholder="Full Name" required></p>
+                <fieldset>
+                    <legend>Gender *</legend>
+                    <p>
+                        <label for="male">
+                            Male<input type="radio" value="male" name="gender" id="male" required>
+                        </label>
+                        <label for="female">
+                            Female<input type="radio" value="Female" name="gender" id="female" required>
+                        </label>
+                    </p>
+                </fieldset>
+                <p>Email : * <input type="email" name="mail" id="email1" placeholder="Enter your Email" required></p>
+                <p>Address :<br> <textarea name="Address" id="address1" placeholder="Enter your address" cols="70"
+                        rows="10"></textarea></p>
+                <p>Pincode : * <input type="number" name="pincode" id="pin1" placeholder="123456" required> </p>
+                <hr>
+                <h2>Payment Information</h2>
+                <p> Card Type : *
+                    <br><br>
+                    <img src="/Images/download.jpg" alt="" width="110" height="30">
+                    <select name="card_type" id="card_type" required>
+                        <option value="">--Select a Card Type--</option>
+                        <option value="visa">Visa</option>
+                        <option value="rupay">Rupay</option>
+                        <option value="masterpay">Mastercard</option>
+                    </select>
+                </p>
+                <p>Card Number : * <input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333"
+                        required></p>
+                <p>Expiration Date : * <input type="Date" name="exp_date" id="exp_date" required></p>
+                <p>CVV : * <input type="password" name="cvv" id="cvv" placeholder="123" required></p>
+                <input type="submit" value="Pay Now" name="submit"><br><br>
+                <input type="reset" value="Reset" name="reset">
+        </form>
+    </section>
+</main>
+</body>
+
+</html>
