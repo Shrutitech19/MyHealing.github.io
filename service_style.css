@@ -51,7 +51,7 @@ nav ul li .active {
 nav ul li:hover .submenu{
     display:block;
     position:absolute;
-    background-color:hsl(199, 86%, 49%);
+    background-color:hsl(199, 85%, 48%);
     margin-right:15px;
     border:1px solid rgba(255, 251, 251, 0.187);
 }
