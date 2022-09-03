@@ -6,7 +6,7 @@
 nav {
     width: 100%;
     height: 80px;
-    background-color: hsl(199, 70%, 47%);
+    background-color: hsl(199, 86%, 49%);
     line-height: 75px;
     padding: 0px 70px 0px 180px;
     position: fixed;
@@ -51,7 +51,7 @@ nav ul li .active {
 nav ul li:hover .submenu{
     display:block;
     position:absolute;
-    background-color:hsl(199, 70%, 47%);
+    background-color:hsl(199, 86%, 49%);
     margin-right:15px;
     border:1px solid rgba(255, 251, 251, 0.187);
 }
