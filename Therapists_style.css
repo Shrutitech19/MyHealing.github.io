@@ -6,7 +6,7 @@
 nav {
     width: 100%;
     height: 80px;
-    background-color: rgb(35, 169, 231);
+    background-color:hsl(199, 70%, 47%);
     line-height: 75px;
     padding: 0px 70px 0px 180px;
     position: fixed;
@@ -32,7 +32,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
+    color: white;
     font-weight: 500;
     font-size: 18px;
     padding: 0px 15px;
@@ -43,7 +43,7 @@ nav ul li a:hover {
     text-shadow: 5px;
 }
 nav ul li .active {
-    color:  rgb(4, 14, 100);
+    color:  rgb(0, 0, 0);
 }
 .submenu{
     display:none;
@@ -83,7 +83,7 @@ nav ul li:hover .no_2 ul li{
     width:250px;
 }
 .heading{
-    background-color:  rgb(3, 125, 182);
+    background-color:  hsl(204, 62%, 38%);
     width:100%;
     height:auto;
     text-align: center;
@@ -134,7 +134,7 @@ nav ul li:hover .no_2 ul li{
    font-family: 'Inter', sans-serif;
    font-weight:500 ;
    font-size: 23px;
-   color:#395694;
+   color:hsl(210, 41%, 31%);
 }
 .heading_therapist_p{
     position: absolute;
@@ -186,15 +186,17 @@ section{
 }
 .counselor_img .profile{
     display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     margin: 10px;
-    padding:10px;
+    padding:8px;
     border-radius: 30px;
     border:1.5px solid #2866ab;
     background-color: hsl(200, 33%, 98%);
     text-align: center;
     color: #2866ab;
     text-decoration: none;
-    font-weight: 500;
+    font-weight:400;
 }
 .counselor_img .profile:hover{
     background-color: #2866ab;
