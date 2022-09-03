@@ -78,7 +78,7 @@ section .imgbx img{
     border-radius: 30px ;
 }
 input[type="submit"]{
-    background: #45b8ffe1 ;
+    background: #0f9ef7ed ;
     color:#fff;
     outline:none;
     border:none;
@@ -88,7 +88,7 @@ input[type="submit"]{
     margin-top: 8px;
 }
 input[type="submit"]:hover{
-    background: #36acf5;
+    background: #1a95e1;
 }
 .remember,.forgot a{
     margin: 8px 0;

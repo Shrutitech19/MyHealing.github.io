@@ -14,7 +14,7 @@ img{
     width:300px;
     height:300px;
     margin: 40px 50px 70px 30px ;
-    border:16px solid rgba(90, 69, 52, 0.836);
+    border:16px solid rgba(103, 85, 70, 0.95);
 }
 h5{
     font-size: 32px;
@@ -31,19 +31,21 @@ h6{
 .paragrph,.adrs{
     font-size: 17px;
     font-weight: 300;
-    text-align: justify;
     margin-left: 10px;
-    margin-right: 40px;
+}
+.paragrph{
+    text-align: justify;
+    margin:10px 40px 0px 20px;
 }
 button{
     padding:4px 30px;
-    background:linear-gradient(177deg,#e1743dd1 0%,#c96411ce 100%);
-    border:2px solid rgba(171, 132, 132, 0.493);
+    background:linear-gradient(177deg,#e1743dd1 0%,#bb6015cc 100%);
+    border:2px solid rgba(174, 137, 137, 0.671);
     margin:10px 10px 30px 10px;
 }
 .Button{
     text-decoration: none; 
-    color:white; 
+    color:whitesmoke; 
     font-size: 20px;
 }
 button:hover{
