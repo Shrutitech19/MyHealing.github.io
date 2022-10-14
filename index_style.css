@@ -33,7 +33,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
 }
-nav ul li a {
+nav ul li a ,.login-btn{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
@@ -41,19 +41,21 @@ nav ul li a {
     font-size: 18px;
     padding: 0px 13px;
 }
-.login{
+.login-btn{
     display:inline;
-    padding:8px 2px 8px 2px;
-    border-radius: 30px;
+    padding: 4px 6px;
+    border-radius: 18px;
     background-color:hsl(199, 74%, 49%);
     box-shadow:0px 2px 3px 0px rgb(31 45 50 / 42%);
+    border: transparent;
 }
-.login:hover{
-    padding: 6px 1px 6px 1px;
-    margin:2px 1px 2px 1px;
+.login-btn:hover{
+    padding: 2px 3px ;
+    margin: 2px 3px;
 }
-.login a:hover{
+.login-btn :hover{
     color: rgb(188, 227, 245);
+    background-color: none;
 }
 nav ul li :hover {
     color: hsl(200, 88%, 7%);

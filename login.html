@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,53 +9,104 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="login_style.css">
 </head>
+
 <body>
     <main>
-    <section>
-        <div class="imgbx">
-            <img src="Images/imgbg.jpg" alt="">
-        </div>
-        <div class="contentbx">
-            <div class="formbx">
-                <h2>Login</h2>
-                <form action="" method="get">
-                    <div class="inputbx">
-                        <span>Username</span>
-                        <input type="text"name="" placeholder="Email id/Mobile No.">
+        <section>
+            <div class="imgbx">
+                <img src="Images/imgbg.jpg" alt="">
+            </div>
+            <div class="contentbx">
+                <!-- Login Form -->
+                <div class="formbx">                    
+                    <form id="login"action="" method="get">
+                    <h2 class="login-heading">Login</h2>
+                        <div class="inputbx">
+                            <span>Username</span>
+                            <input type="text" placeholder="Email id/Mobile No.">
+                        </div>
+                        <div class="inputbx">
+                            <span>Password</span>
+                            <input type="password" name="" placeholder="Password">
+                        </div>
+                        <div class="remember">
+                            <label for="">
+                                <input type="checkbox" name="" id="">Remember me
+                            </label>
+                        </div>
+                        <div class="forgot">
+                            <p><a href="http://">Forgot Password ?</a></p>
+                        </div>
+                        <div class="inputbx">
+                            <input type="submit" value="Log in">
+                        </div>
+                        <div class="inputbx">
+                            <p>Don't have an account?</p>
+                        </div>
+                        <div class="sign-up">
+                            <p onclick ="register()">Sign up</p>
+                        </div>
+                    <p class="log-in-account">Log in using another account</p>
+                    <div class="diff-accounts">
+                        <a href="http://" id="Gg"><i class="fa-brands fa-google"></i></a>
+                        <a href="http://" id="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="http://" id="ig"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://" id="tr"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://" id="in"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <div class="inputbx">
-                        <span>Password</span>
-                        <input type="password" name="" placeholder="Password">
-                    </div>
-                    <div class="remember">
-                        <label for="">
-                            <input type="checkbox" name="" id="">Remember me
-                        </label>
-                    </div>
-                    <div class="forgot">
-                        <p><a href="http://">Forgot Password ?</a></p>
-                    </div>
-                    <div class="inputbx">
-                        <input type="submit" value="Log in">
-                    </div>
-                    <div class="inputbx">
-                        <p>Don't have an account?</p>
-                    </div>
-                    <div class="inputbx">
-                        <p><a href="http://">Sign up</a></p>
-                    </div>
-                </form>
-                <h3 class="heading2">Login using another account</h3>
-                <div class="social">
-                    <a href="http://" id="Gg"><i class="fa-brands fa-google"></i></a>
-                    <a href="http://" id="fb"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="http://" id="ig"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="http://" id="tr"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="http://" id="in"><i class="fa-brands fa-linkedin"></i></a>
+                    </form> 
+                    <!-- Registration Form -->
+                    <form id="register" action="" method="get">
+                    <h2 class="register-heading">Register</h2>
+                        <div class="inputbx">
+                            <span>First Name</span>
+                            <input type="text" placeholder="First Name" required>
+                        </div>
+                        <div class="inputbx">
+                            <span>Last Name</span>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                        <div class="inputbx">
+                            <span>Email</span>
+                            <input type="email" placeholder="Email Id" required>
+                        </div>
+                        <div class="inputbx">
+                            <span>Enter Password</span>
+                            <input type="password" name="" placeholder="Enter Password" required>
+                        </div>
+                        <div class="inputbx">
+                            <span>Confirm Password</span>
+                            <input type="password" name="" placeholder="Confirm Password" required>
+                        <div class="inputbx">
+                            <input type="submit" value="Register">
+                        </div>
+                        <div class="remember" >
+                            <p class="goto-login"onclick ="login()">Go to Login Page ></p>
+                        </div>
+                        <p class="sign-in-account">Sign in using another account</p>
+                        <div class="diff-accounts">
+                            <a href="http://" id="Gg"><i class="fa-brands fa-google"></i></a>
+                            <a href="http://" id="fb"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="http://" id="ig"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="http://" id="tr"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="http://" id="in"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </form>                   
                 </div>
             </div>
-        </div>
-    </section>
-</main>
+            <script>
+                var x=document.getElementById('login');
+                var y=document.getElementById('register');
+                function login(){
+                    y.style.display="none";
+                    x.style.display="block";
+                }
+                function register() {              
+                    x.style.display="none";
+                    y.style.display="block";
+                }              
+            </script>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins&display=swap');
 *{
-    margin:0%;
-    padding:0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;;
 }
 section{
     position:relative;
@@ -13,17 +13,17 @@ section{
     padding-left: 220px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(Images/trial.jpg );
+    background-image: url(Images/trial7.jpg);
     background-size: contain;
     background-repeat:round;
 }
-section .imgbx{
+.imgbx{
     position: relative;
     width:50%;
     height:100%;
     background-color: #fff;
 }
-section .imgbx:before{
+.imgbx:before{
     content: "";
     position: absolute;
     top:0;
@@ -34,7 +34,7 @@ section .imgbx:before{
     z-index:1;
     mix-blend-mode: screen;
 }
-section .imgbx img{
+.imgbx img{
     position:absolute;
     top:0;
     left:0;
@@ -53,7 +53,7 @@ section .imgbx img{
 .formbox{
     width:30%;
 }
- section h2{
+.register-heading,.login-heading{
     display: inline-block;
     color:#607d8b;
     font-weight:600;
@@ -88,7 +88,7 @@ input[type="submit"]{
     margin-top: 8px;
 }
 input[type="submit"]:hover{
-    background: #1a95e1;
+    background: #2a99de;
 }
 .remember,.forgot a{
     margin: 8px 0;
@@ -96,36 +96,52 @@ input[type="submit"]:hover{
     font-size: 14px;
     font-weight: 400;
 }
+.goto-login{
+    border-bottom:1px solid #607d8b ;
+    width: fit-content;
+    text-align: center;
+}
 .inputbx p{
     color:#607d8b;
     text-align: center;
 }
-.inputbx p a{
+.sign-up{
     display: block;
     color:#fff;
     text-decoration: none;
     width:100%;
-    background:#f84f96;
+    background:hsl(332, 95%, 51%);
     border-radius:30px ;
     padding:10px 20px;
     text-align: center;
 }
-.inputbx p a:hover{
-    background:#ee337e;
+.sign-up:hover{
+    background:hsl(335, 85%, 54%);
 }
-.heading2{
+#register{
+    margin: 20px 90px 20px 0px;
+    display: none;
+}
+.log-in-account{
     color:#607d8b ;
     text-align: center;
-    margin:70px 0 10px;
+    margin:30px 0 10px;
     font-weight: 500;
     font-size: 17px;
 }
-.social{
+.sign-in-account{
+    color:#607d8b ;
+    text-align: center;
+    margin:8px 0 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.diff-accounts{
     display:flex;
     justify-content: center;
     align-items: center;
 }
-.social a{
+.diff-accounts a{
     width:25px;
     height: 25px;
     border-radius: 13px;
@@ -133,33 +149,29 @@ input[type="submit"]:hover{
     box-shadow: -0.2rem 0.5rem 1rem rgb(0 0 0 / 15%);
     color:#d6249f;
     text-align: center;
-    transition: all 0.20ms ease;
     
 }
-.social a:hover{
-    transform: scale(1.5);
-}
-.social a:hover i{
+.diff-accounts a:hover i{
     transform:rotate(360deg);
     transition: all 0.2s;
 }
-.social #Gg:hover{
+.diff-accounts #Gg:hover{
     background-color:#fff;
     color:rgb(6, 117, 191);
 }
-.social #fb:hover{
+.diff-accounts #fb:hover{
     background-color: #395694;
     color:white;
 }
-.social #ig:hover {
+.diff-accounts #ig:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     color:white;
 }
-.social #tr:hover {
+.diff-accounts #tr:hover {
     background-color: #00a6e5;
     color: white;
 }
-.social #in:hover {
+.diff-accounts #in:hover {
     background-color:#2866ab;
     color:white;
 }
