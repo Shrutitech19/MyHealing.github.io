@@ -5,54 +5,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Counselling | Mytherapy</title>
+    <title>Online Appointment Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav_style.css">
     <link rel="stylesheet" href="Online_style.css">
+    <link rel="stylesheet" href="footer_style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <p>MyHealing</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Therapists.html" class="active">Therapists</a>
+                <li><a href="#">Services</a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Anxiety Therapy</a></li>
+                            <li><a href="#">Depression Therapy</a></li>
+                            <li><a href="#">Family Therapy</a></li>
+                            <li><a href="#">Couple Therapy</a></li>
+                            <li><a href="#">Trauma Therapy</a></li>
+                            <li><a href="#">LGBTQ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Getting Stared</a>
+                    <div class="submenu no_2">
+                        <ul>
+                            <li><a href="#">Online Counselling</a></li>
+                            <li><a href="#">Appointment <span>Request</span></a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-    <section class="Payment_section">
-        <form action="" method="get">
-            <h1>Payment Form</h1>
-            <div class="container">
-                <h2>User Information</h2>
-                <p>Name : * <input type="text" name="naming" placeholder="Full Name" required></p>
-                <fieldset>
-                    <legend>Gender *</legend>
-                    <p>
-                        <label for="male">
-                            Male<input type="radio" value="male" name="gender" id="male" required>
-                        </label>
-                        <label for="female">
-                            Female<input type="radio" value="Female" name="gender" id="female" required>
-                        </label>
-                    </p>
-                </fieldset>
-                <p>Email : * <input type="email" name="mail" id="email1" placeholder="Enter your Email" required></p>
-                <p>Address :<br> <textarea name="Address" id="address1" placeholder="Enter your address" cols="70"
-                        rows="10"></textarea></p>
-                <p>Pincode : * <input type="number" name="pincode" id="pin1" placeholder="123456" required> </p>
-                <hr>
-                <h2>Payment Information</h2>
-                <p> Card Type : *
-                    <br><br>
-                    <img src="/Images/download.jpg" alt="" width="110" height="30">
-                    <select name="card_type" id="card_type" required>
-                        <option value="">--Select a Card Type--</option>
-                        <option value="visa">Visa</option>
-                        <option value="rupay">Rupay</option>
-                        <option value="masterpay">Mastercard</option>
-                    </select>
-                </p>
-                <p>Card Number : * <input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333"
-                        required></p>
-                <p>Expiration Date : * <input type="Date" name="exp_date" id="exp_date" required></p>
-                <p>CVV : * <input type="password" name="cvv" id="cvv" placeholder="123" required></p>
-                <input type="submit" value="Pay Now" name="submit"><br><br>
-                <input type="reset" value="Reset" name="reset">
-        </form>
-    </section>
-</main>
+        <section class="section1">
+            <div class="imgbx">
+                <img src="Images/onlineform.jpg" alt="">
+                <br>
+                <div class="Appointment-info">
+                    <div class="sessions">
+                        <p>No. of Session - <span class="sessions-info">2 Video Sessions</span></p>
+                        <p>Total Sessions Duration - <span class="sessions-info">120 Mins</span></p>
+                        <p>VALIDITY - <span class="sessions-info"> 60 DAYS</span></p>
+                        <p>Medium - <span class="sessions-info">Google meet / Microsoft Teams / Zoom</span></p>
+                        <p>Assigning the therapist usually takes - <span class="sessions-info">12-24 hours.</span></p>
+                    </div>
+                    <div class="para1">
+                        <h3>Terms and Conditions - </h3>
+                        <p>The therapist will be assigned to you within 12-24 hours .</p>
+                        <p>The therapist will send you the acknowledgement on Your Whatsapp No .</p>
+                        <p>The same therapist will be assigned to you for all of your present and future sessions unless
+                            You</p>
+                        <p>need to change the same for Valid reasons and concerns .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <form action="" method="get">
+                    <h1>Online Appointment</h1>
+                    <div class="container">
+                        <h2>User Information</h2>
+                        <br>
+                        <p>Name : <input type="text" name="naming" placeholder="Full Name" required></p>
+                        <fieldset>
+                            <legend>Gender </legend>
+                            <p>
+                                <label for="male">
+                                    Male<input type="radio" value="male" name="gender" id="male" required>
+                                </label>
+                                <label for="female">
+                                    Female<input type="radio" value="Female" name="gender" id="female" required>
+                                </label>
+                            </p>
+                        </fieldset>
+                        <p>Email : <input type="email" name="mail" id="email1" placeholder="Enter your Email" required>
+                        </p>
+                        <p>Phone: <input type="number" name="phone" id="phone1" placeholder="Enter your Phone Number"
+                                required>
+                        </p>
+                        <p>Address :<br> <textarea name="Address" id="address1" placeholder="Enter your address"
+                                cols="60" rows="1"></textarea></p>
+                        <p>Pincode : <input type="number" name="pincode" id="pin1" placeholder="123456" required> </p>
+                        <p> Doctor's Name : <input type="text" name="doctor_name" placeholder="Full Name" required></p>
+                        <p>Preferred Medium :
+                            <select name="meeting_type" id="meeting_type" required>
+                                <option value="">--Select--</option>
+                                <option value="Google meet">Google meet</option>
+                                <option value="Microsoft Teams">Microsoft Teams</option>
+                                <option value="Zoom">Zoom</option>
+                            </select>
+                        </p>
+                        <hr>
+                        <br>
+                        <h2>Payment Information</h2>
+                        <br>
+                        <p> Card Type :
+                            <br><br>
+                            <img src="Images/cards.jpg" alt="" width="70" height="30">
+                            <select name="card_type" id="card_type" required>
+                                <option value="">--Select a Card Type--</option>
+                                <option value="visa">Visa</option>
+                                <option value="rupay">Rupay</option>
+                                <option value="masterpay">Mastercard</option>
+                            </select>
+                        </p>
+                        <p>Card Number : <input type="number" name="card_number" id="card_number"
+                                placeholder="1111-2222-3333" required></p>
+                        <p>Expiration Date : <input type="Date" name="exp_date" id="exp_date" required></p>
+                        <p>CVV : <input type="password" name="cvv" id="cvv" placeholder="123" required></p>
+                        <p>Amount : <span>₹ 1,499.00</span></p>
+                        <br>
+                        <input type="submit" value="Pay Now" name="submit"><br><br>
+                        <input type="reset" value="Reset" name="reset">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a><i class="fa-solid fa-house"></i> MyHealing Counselling Center</a>
+        <a><i class="fa-solid fa-phone"></i> PH No.-8249670200 </a>
+        <a><i class="fa-solid fa-square-envelope"></i> Gmail-shutimishra@gmail.com</a>
+        <p>Privacy Policy | Website by Shrutismita</p>
+        <div class="social">
+            <a href="http://" id="fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="http://" id="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://" id="tr"><i class="fa-brands fa-twitter"></i></a>
+            <a href="http://" id="in"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
 </body>
-
 </html>
