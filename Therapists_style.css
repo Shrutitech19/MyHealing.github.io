@@ -149,7 +149,7 @@ nav ul li:hover .no_2 ul li{
     position: absolute;
     right:0;
     width:20%;
-    height:28%;
+    min-height:27%;
 }
 
 section{
